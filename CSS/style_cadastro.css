@@ -1,0 +1,75 @@
+#Main {
+	height: 100vh;
+}
+#Painel {
+	display: flex;
+	width: 95%;
+	height: 950px;
+    flex-wrap: wrap;
+	justify-content: center;
+	overflow: scroll;
+}
+
+#usuario_cadastro{
+	width: 750px;
+	height: 100%;
+	display: inline-block;
+	justify-content: center;
+	overflow: auto;
+	margin: 0 auto;
+	align-items: center;
+	
+}
+
+#usuario_cadastro > * {
+	vertical-align: middle;
+}
+
+h2{ 
+    margin:20px;
+}
+
+
+
+#icon {
+	
+	background-image: url("../IMAGENS/icon.jpeg");
+	 background-size: 20vh;
+       background-repeat: no-repeat;
+ 	       min-width: 200px;
+	       max-width: 190px;  
+		 height: 63px;  
+	   position: relative;
+	   float: left;
+	   margin-right: 30px;
+	   
+}
+
+
+
+#btn_cadastro {
+	margin-top: 20px;
+}
+
+label {
+	display: flex;
+	margin-left: 23px;
+
+}
+
+input {
+height: 40px;
+width: 90%;	
+font-size: 15px;
+margin: 20px 10px 20px 10px;
+}
+
+.btn_cadast{
+	height: 50px;	 
+			  width: 60%;
+		  font-size: 12px;
+			 border: none;	   
+			 margin: 10px;
+}
+
+
